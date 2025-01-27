@@ -52,3 +52,31 @@ Here are a few suggestions on what to do next if you're new to Netlify visual ed
 ## Support
 
 If you get stuck along the way, get help in our [support forums](https://answers.netlify.com/).
+
+## New Packages
+
+This project now includes the following new packages:
+
+- `@eth-optimism/viem`
+- `@eth-optimism/wagmi`
+
+### Installation
+
+To install the new packages, run the following command:
+
+```shell
+npm install @eth-optimism/viem @eth-optimism/wagmi
+```
+
+### Usage
+
+To use the new packages in your project, import them as follows:
+
+```javascript
+import { viem } from '@eth-optimism/viem';
+import { wagmi } from '@eth-optimism/wagmi';
+
+// Example usage
+viem.doSomething();
+wagmi.doSomethingElse();
+```
